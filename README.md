@@ -1,11 +1,15 @@
-# Experiment--02-Implementation-of-combinational-logic
-Implementation of combinational logic gates
+# Experiment 02 Implementation of combinational logic
+```
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+Developed by: bharathganesh
+RegisterNumber:  212222230022
+```
+
  
 ## AIM:
 To implement the given logic function verify its operation in Quartus using Verilog programming.
  F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
-F2=xy’z+x’y’z+w’xy+wx’y+wxy
- 
+
  
  
 ## Components  Required:
@@ -52,11 +56,7 @@ The NOT gate is a fundamental digital logic gate. It has a single input and a si
    - Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
    - 
 ## Program:
-```
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
-Developed by: bharathganesh
-RegisterNumber:  212222230022
-```
+
 ```
 module proj2(A,B,C,D,F1);
 input A,B,C,D;
